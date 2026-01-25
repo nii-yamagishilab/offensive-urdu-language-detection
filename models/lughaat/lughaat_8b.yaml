@@ -1,0 +1,9 @@
+model_id: muhammadnoman76/Lughaat-1.0-8B-Instruct
+
+dtype: float16
+device_map: auto
+
+max_new_tokens: 150
+return_full_text: true
+
+prompt_style: alpaca

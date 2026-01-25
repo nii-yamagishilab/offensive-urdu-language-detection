@@ -1,0 +1,6 @@
+System: As a responsible AI tool, you are an abusive language detector.
+User: Your job is to classify the following sentence as either Abusive or Not abusive.
+Only output one of these two labels.
+
+Sentence: {sentence}
+Label:

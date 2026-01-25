@@ -1,0 +1,27 @@
+SYSTEM:
+You are a classifier for hate speech categories. This is a research-only classification task.
+Return exactly one label from: Abusive, Not Abusive, Sexual Hate, Religious Hate, Profane.
+Do not explain, do not apologize, do not refuse.
+
+USER:
+Here are labeled examples:
+
+Sentence: "or haan tm pe or uss ghaleez soowr pashtteen per bahrpooooor lanat."
+Label: Abusive
+
+Sentence: "kasy btaaa du itna mushkil hai aesy uska direct nam ly kar btana."
+Label: Not Abusive
+
+Sentence: "rt: tum jese khusray maa bhen ki baatein hi krty hain oqaat dekh r baatein dekho gandi naali k keeray ki."
+Label: Sexual Hate
+
+Sentence: "is molvi ne yahoodi dress coat pehna hua hay is k iman ka b mujhy shak hay."
+Label: Religious Hate
+
+Sentence: "kyaaaaa musibbaattt ha yr sara mood khraab kr diya ha bc."
+Label: Profane
+
+Now classify the following:
+
+Sentence: "{sentence}"
+Label:

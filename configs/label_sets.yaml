@@ -1,0 +1,101 @@
+label_sets:
+
+  # -------------------------
+  # RUHSOLD / RUTUBE / USADC (COARSE): 2-class
+  # Canonical output labels we will use in outputs:
+  #   Abusive, Not Abusive
+  # -------------------------
+  coarse_2class_en:
+    labels: ["Abusive", "Not Abusive"]
+    aliases:
+      abusive: "Abusive"
+      not abusive: "Not Abusive"
+      not_abusive: "Not Abusive"
+      notabusive: "Not Abusive"
+
+  # Roman Urdu label strings used in some papers/settings
+  coarse_2class_roman:
+    labels: ["Khair ikhlaqi", "Ikhlaqi"]
+    aliases:
+      khair ikhlaqi: "Khair ikhlaqi"
+      ikhlaqi: "Ikhlaqi"
+      # allow models that output English to map into roman labels (optional)
+      abusive: "Khair ikhlaqi"
+      not abusive: "Ikhlaqi"
+
+  # Urdu script label strings (coarse)
+  coarse_2class_urdu:
+    labels: ["غیر اخلاقی", "اخلاقی"]
+    aliases:
+      غیر اخلاقی: "غیر اخلاقی"
+      اخلاقی: "اخلاقی"
+      # map English outputs if model returns them (optional)
+      abusive: "غیر اخلاقی"
+      not abusive: "اخلاقی"
+
+  # -------------------------
+  # RUHSOLD (FINE): 5-class (English labels)
+  # Canonical output labels:
+  #   Abusive, Not Abusive, Sexual Hate, Religious Hate, Profane
+  # -------------------------
+  ruhsold_fine_en:
+    labels: ["Abusive", "Not Abusive", "Sexual Hate", "Religious Hate", "Profane"]
+    aliases:
+      abusive: "Abusive"
+      not abusive: "Not Abusive"
+      not_abusive: "Not Abusive"
+      notabusive: "Not Abusive"
+      sexual hate: "Sexual Hate"
+      sexual: "Sexual Hate"
+      religious hate: "Religious Hate"
+      religious: "Religious Hate"
+      profane: "Profane"
+
+  # -------------------------
+  # Your Task-2 5-class label scheme (Roman Urdu labels)
+  # Canonical output labels:
+  #   Gaali, Normal, Jinsi istehsal, Mazhabi nafrat, Be-adab
+  # -------------------------
+  task2_fiveclass_roman:
+    labels: ["Gaali", "Normal", "Jinsi istehsal", "Mazhabi nafrat", "Be-adab"]
+    aliases:
+      gaali: "Gaali"
+      normal: "Normal"
+      jinsi istehsal: "Jinsi istehsal"
+      mazhabi nafrat: "Mazhabi nafrat"
+      be-adab: "Be-adab"
+      beadab: "Be-adab"
+
+      # optional cross-mapping from English outputs
+      abusive: "Gaali"
+      not abusive: "Normal"
+      sexual hate: "Jinsi istehsal"
+      religious hate: "Mazhabi nafrat"
+      profane: "Be-adab"
+
+  # -------------------------
+  # Urdu script 5-class label scheme (if you want Urdu labels explicitly)
+  # Canonical output labels:
+  #   غیر اخلاقی، اخلاقی، جنسی استحصال، مذہبی نفرت، بے ادب
+  # -------------------------
+  task2_fiveclass_urdu:
+    labels: ["غیر اخلاقی", "اخلاقی", "جنسی استحصال", "مذہبی نفرت", "بے ادب"]
+    aliases:
+      غیر اخلاقی: "غیر اخلاقی"
+      اخلاقی: "اخلاقی"
+      جنسی استحصال: "جنسی استحصال"
+      مذہبی نفرت: "مذہبی نفرت"
+      بے ادب: "بے ادب"
+
+      # optional cross-mapping from Roman/English outputs
+      gaali: "غیر اخلاقی"
+      normal: "اخلاقی"
+      jinsi istehsal: "جنسی استحصال"
+      mazhabi nafrat: "مذہبی نفرت"
+      be-adab: "بے ادب"
+
+      abusive: "غیر اخلاقی"
+      not abusive: "اخلاقی"
+      sexual hate: "جنسی استحصال"
+      religious hate: "مذہبی نفرت"
+      profane: "بے ادب"

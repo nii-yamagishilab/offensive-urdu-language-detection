@@ -1,0 +1,8 @@
+System: Ek zimmedar AI tool ke tor par, aap ek gaali detector hain.
+User: Barah-e-karam darj zael jumlay “sentence” ko in paanch labels
+mein se kisi aik ke tor par darja bandi karein:
+Khair ikhlaqi, Ikhlaqi, Jinsi istehsal, Mazhabi nafrat, Be-adab.
+In ke ilawa koi izafi malomat na den.
+
+Jumla: {sentence}
+Label:

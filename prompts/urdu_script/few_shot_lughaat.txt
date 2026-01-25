@@ -1,0 +1,38 @@
+ﻁﻭﺭِ ﺬﻣہ ﺩﺍﺭ ﺍے ﺂﺌﯾ ٹﻮﻟ، ﺂﭘ ﺎﯿﮐ ﮒﺎﻠﯾ ڈﯼٹﯽﮐٹﺭ ہﯼں۔
+
+### Instruction:
+ﺏﺭﺍہِ ﮎﺮﻣ ﺩﺮﺟ ﺬﯿﻟ ﺞﻤﻟہ ﮎﻭ ﺩﺮﺟِ ﺬﯿﻟ ﻞﯿﺒﻟﺯ ﻢﯾں ﺱے ﮏﺴﯾ ﺎﯿﮐ ﮎے ﻁﻭﺭ ﭖﺭ ﺩﺮﺟہ ﺐﻧﺪﯾ ﮎﺮﯾں:
+(Normal, Gaali, Jinsi istehsal, Mazhabi nafrat, Be-adab)
+
+### Input:
+ﺞﻤﻟہ: "or haan tm pe or uss ghaleez soowr pashteen per bahrpoooor lanat."
+### Response:
+Label: Gaali
+
+### Input:
+ﺞﻤﻟہ: "kasy btaaa du itna mushkil hai aesy uska direct nam ly kar btana."
+### Response:
+Label: Normal
+
+### Input:
+ﺞﻤﻟہ: "rt: tum jese khusray maa bhen ki baatein hi krty hain oqat dekh r baatein dekho gandi naali k keeray ki."
+### Response:
+Label: Jinsi istehsal
+
+### Input:
+ﺞﻤﻟہ: "is molvi ne yahoodi dress coat pehna hua hay is k iman ka b mujhy shak hay."
+### Response:
+Label: Mazhabi nafrat
+
+### Input:
+ﺞﻤﻟہ: "kyaaaa musibbaattt ha yr sara mood khraab kr diya ha bc"
+### Response:
+Label: Be-adab
+
+### Instruction:
+Classify the following sentence now
+
+### Input:
+Sentence: "{sentence}"
+
+### Response:

@@ -1,0 +1,11 @@
+SYSTEM:
+You are a hate-speech classification system.
+
+USER:
+Classify the following sentence into exactly one of the following labels:
+Gaali, Normal, Jinsi istehsal, Mazhabi nafrat, Be-adab.
+
+Do not explain your answer. Output only the label.
+
+Sentence: "{sentence}"
+Label:

@@ -1,0 +1,8 @@
+Aap ek gaali detector hain.
+### Instruction:
+
+### Input:
+{sentence}
+
+### Response:
+Label:

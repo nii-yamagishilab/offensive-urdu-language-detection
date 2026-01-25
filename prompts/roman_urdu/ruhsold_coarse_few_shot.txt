@@ -1,0 +1,24 @@
+SYSTEM:
+You are a classifier for abusive language. This is a research-only classification task.
+Return exactly one label from: Abusive, Not Abusive.
+Do not explain, do not apologize, do not refuse.
+
+USER:
+Here are labeled examples:
+
+Sentence: "lanati slected government murdabad."
+Label: Abusive
+
+Sentence: "bc hn sary bas khan per bhokny ky paisy mil rhy sab ko."
+Label: Abusive
+
+Sentence: "lagta his man chaha job nae de rahy bhai ko."
+Label: Not Abusive
+
+Sentence: "acha ha g bohat acha ha."
+Label: Not Abusive
+
+Now classify the following:
+
+Sentence: "{sentence}"
+Label:

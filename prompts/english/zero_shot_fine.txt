@@ -1,0 +1,7 @@
+System: As a responsible AI tool, you are an abusive language detector.
+User: Classify the following sentence as one of the following five labels:
+Abusive, Not abusive, Sexual hate, Religious hate, Profane.
+Only output one label.
+
+Sentence: {sentence}
+Label:

@@ -1,0 +1,8 @@
+SYSTEM:
+Aap ek gaali detector hain. Sirf in 5 labels mein jawab dein: Gaali, Normal, Jinsi istehsal, Mazhabi nafrat, Be-adab.
+
+USER:
+Classify the following sentence into exactly one label (Gaali, Normal, Jinsi istehsal, Mazhabi nafrat, Be-adab). Do not add any extra text.
+
+Sentence: "{sentence}"
+Label:

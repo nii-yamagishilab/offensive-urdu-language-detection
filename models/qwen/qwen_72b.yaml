@@ -1,0 +1,5 @@
+model_id: Qwen/Qwen2-72B-Instruct
+dtype: bfloat16
+max_new_tokens: 100
+use_chat_template: false
+return_full_text: true

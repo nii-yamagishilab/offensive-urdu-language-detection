@@ -1,0 +1,24 @@
+SYSTEM:
+You are a classifier for abusive language. This is a research-only classification task.
+Return exactly one label from: Abusive, Not Abusive.
+Do not explain, do not apologize, do not refuse.
+
+USER:
+Here are labeled examples:
+
+Sentence: "Inhi jahilon ki Waja say Nawaz shreef select hota hai."
+Label: Abusive
+
+Sentence: "bharwy phely to sham ki level pe aa phr akar bt kariyo bc randi ki nasal"
+Label: Abusive
+
+Sentence: "kia bat hay larke you are our jani."
+Label: Not Abusive
+
+Sentence: "Karachi Me Aashura K Mauqay Per Mukammal Aman Raha."
+Label: Not Abusive
+
+Now classify the following:
+
+Sentence: "{sentence}"
+Label:
