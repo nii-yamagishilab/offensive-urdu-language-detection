@@ -45,3 +45,15 @@ python runners/run_llama.py \
   --prompt prompts/roman_urdu/zero_shot_fine.txt \
   --output outputs/llama/llama8b/task2_roman_urdu_zero_shot.csv \
   --label_set task2_fiveclass_romane
+
+## Citation
+
+~~~
+This code is the official implementation of the following paper. Please cite the paper below when using it.
+
+Iffat Maab, Usman Haider, and Junichi Yamagishi. 2026. 
+Prompt-driven Detection of Offensive Urdu Language using Large Language Models.
+In Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers), pages 4302–4327, Rabat, Morocco. Association for Computational Linguistics.
+
+Link: https://aclanthology.org/2026.eacl-long.201/
+~~~
